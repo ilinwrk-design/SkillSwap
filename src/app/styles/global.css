@@ -1,34 +1,38 @@
 /* fonts */
 @font-face {
-  font-family: 'Roboto';
+  font-family: Roboto;
   src: url('./fonts/roboto-v51-cyrillic_latin-400.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: 'Roboto';
+  font-family: Roboto;
   src: url('./fonts/roboto-v51-cyrillic_latin-500.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: 'Jost';
+  font-family: Jost;
   src: url('./fonts/jost-v20-cyrillic_latin-500.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: 'Jost';
+  font-family: Jost;
   src: url('./fonts/jost-v20-cyrillic_latin-600.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: 'OpenSans';
+  font-family: OpenSans;
   src: url('./fonts/open-sans-v44-cyrillic_latin-600.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
@@ -42,7 +46,7 @@
   --color-primary-hover: #DEEBC5;
   --color-link: #508826;
   --color-bg: #F9FAF7;
-  --color-bg-secondary: #FFFFFF;
+  --color-bg-secondary: #FFF;
   --color-text: #253017;
   --color-text-secondary: #69735D;
   --color-border: #69735D;
