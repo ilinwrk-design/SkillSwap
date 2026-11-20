@@ -1,0 +1,58 @@
+/* Кликабельная область: чекбокс + текст */
+.label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+/* Визуально скрытый нативный чекбокс */
+.input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Видимый квадрат чекбокса */
+.box {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background-color: var(--color-bg-secondary, #fff);
+  border: 1px solid var(--color-text, #253017);
+  border-radius: 6px;
+}
+
+/* Общий стиль для двух состояний - выбора чекбокса категории и подкатегории */
+.input:checked + .box,
+.input:indeterminate + .box {
+  background-color: var(--color-primary, #abd27a);
+  border-color: var(--color-primary, #abd27a);
+}
+
+/* Галочка, когда чекбокс подкатегории выбран */
+.input:checked:not(:indeterminate) + .box::after {
+  content: '';
+  width: 5px;
+  height: 9px;
+  border: solid var(--color-bg-secondary, #fff);
+  border-width: 0 2px 2px 0;
+  transform: translateY(-1px) rotate(45deg);
+}
+
+/* Дефис, когда чекбокс категории выбран */
+.input:indeterminate + .box::after {
+  content: '';
+  width: 9.5px;
+  height: 1.5px;
+  background-color: var(--color-bg-secondary, #fff);
+}
+
+/* Обводка, когда до чекбокса дошли через Tab */
+.input:focus-visible + .box {
+  outline: 2px solid var(--color-primary, #abd27a);
+  outline-offset: 3px;
+}
