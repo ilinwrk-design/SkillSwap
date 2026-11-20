@@ -1,0 +1,18 @@
+.tag {
+  display: inline-block;
+  max-width: 100%;
+  padding: var(--space-sm) calc(var(--space-sm) + var(--space-xs));
+  border-radius: 20px;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.counter {
+  background-color: var(--color-tag-counter);
+}
