@@ -42,20 +42,21 @@
 /* ─── CSS Custom Properties ─────────────────────────────── */
 :root {
   /* Colors */
-  --color-primary: #ABD27A;
-  --color-primary-hover: #DEEBC5;
+  --color-primary: #abd27a;
+  --color-primary-hover: #deebc5;
   --color-link: #508826;
-  --color-bg: #F9FAF7;
-  --color-bg-secondary: #FFF;
+  --color-bg: #f9faf7;
+  --color-bg-secondary: #fff;
   --color-text: #253017;
-  --color-text-secondary: #69735D;
-  --color-border: #69735D;
-  --color-error: #BF3920;
+  --color-text-secondary: #69735d;
+  --color-border: #69735d;
+  --color-error: #bf3920;
   --color-success: #22c55e;
 
   /* Spacing */
   --space-xs: 4px;
   --space-sm: 8px;
+  --space-base: 12px;
   --space-md: 16px;
   --space-lg: 24px;
   --space-xl: 32px;
@@ -70,6 +71,11 @@
   --font-size-lg: 1.125rem;
   --font-size-xl: 1.25rem;
   --font-size-2xl: 1.5rem;
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
 
   /* Borders */
   --radius-sm: 4px;
