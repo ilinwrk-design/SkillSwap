@@ -1,3 +1,22 @@
+// ─── City ────────────────────────────────────────────────
+export interface City {
+  id: string
+  name: string
+}
+
+// ─── Category ────────────────────────────────────────────
+export interface Subcategory {
+  id: string
+  name: string
+}
+
+export interface Category {
+  id: string
+  name: string
+  color: string
+  subcategories: Subcategory[]
+}
+
 // ─── Skill ───────────────────────────────────────────────
 export type SkillType = 'teach' | 'learn'
 
@@ -6,9 +25,10 @@ export interface Skill {
   title: string
   description: string
   type: SkillType
-  category: string
+  categoryId: string
+  subcategoryId: string
   tags: string[]
-  imageUrl: string | null
+  images: string[]
   authorId: string
   createdAt: string
 }
@@ -18,7 +38,14 @@ export interface User {
   id: string
   name: string
   email: string
+  password: string
+  birthDate: string // YYYY-MM-DD
+  gender: 'мужской' | 'женский' | 'не указан'
+  cityId: string
+  about?: string
   avatarUrl: string | null
+  wantsToLearn: string[]
+  likesCount: number
   createdAt: string
 }
 
