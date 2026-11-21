@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  gap: var(--space-xl);
+  align-items: center;
+  padding: 40px 36px 24px;
+  background-color: var(--color-bg);
+}
+
+.headerLinks {
+  display: flex;
+  gap: var(--space-lg);
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.link.link {
+  padding: 0;
+  line-height: normal;
+  min-height: 0;
+  height: auto;
+  background-color: transparent;
+  white-space: nowrap;
+}
+
+.authButtons {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  flex-shrink: 0;
+}

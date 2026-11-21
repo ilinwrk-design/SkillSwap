@@ -5,6 +5,7 @@ import IconRightIcon from '@/shared/assets/icons/icon-right.svg?react'
 import LogoutIcon from '@/shared/assets/icons/logout.svg?react'
 import MoonIcon from '@/shared/assets/icons/moon.svg?react'
 import SearchIcon from '@/shared/assets/icons/search.svg?react'
+import ChevronDown from '@/shared/assets/icons/chevron-down.svg?react'
 import styles from './Icon.module.css'
 
 const iconMap = {
@@ -15,6 +16,7 @@ const iconMap = {
   logout: LogoutIcon,
   moon: MoonIcon,
   search: SearchIcon,
+  chevronDown: ChevronDown,
 } as const
 
 export type IconName = keyof typeof iconMap
