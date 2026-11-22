@@ -3,7 +3,5 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: var(--space-lg);
-  height: var(--space-lg);
   color: currentcolor;
 }

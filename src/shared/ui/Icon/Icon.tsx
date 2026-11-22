@@ -1,34 +1,33 @@
-import BellIcon from '@/shared/assets/icons/bell.svg?react'
-import ClockIcon from '@/shared/assets/icons/clock.svg?react'
-import HeartIcon from '@/shared/assets/icons/heart.svg?react'
-import IconRightIcon from '@/shared/assets/icons/icon-right.svg?react'
-import LogoutIcon from '@/shared/assets/icons/logout.svg?react'
-import MoonIcon from '@/shared/assets/icons/moon.svg?react'
-import SearchIcon from '@/shared/assets/icons/search.svg?react'
-import ChevronDown from '@/shared/assets/icons/chevron-down.svg?react'
+import sprite from './sprite.svg?url'
 import styles from './Icon.module.css'
 
-const iconMap = {
-  bell: BellIcon,
-  clock: ClockIcon,
-  heart: HeartIcon,
-  'icon-right': IconRightIcon,
-  logout: LogoutIcon,
-  moon: MoonIcon,
-  search: SearchIcon,
-  chevronDown: ChevronDown,
-} as const
-
-export type IconName = keyof typeof iconMap
-
+export type IconName =
+  | 'bell'
+  | 'clock'
+  | 'heart'
+  | 'right'
+  | 'logout'
+  | 'moon'
+  | 'search'
+  | 'chevronDown'
+  | 'briefcase'
+  | 'palette'
+  | 'globe'
+  | 'book'
+  | 'home'
+  | 'leaf'
+  | 'heart-filled'
 interface IconProps {
   name: IconName
-  className?: string
+  width?: number
+  height?: number
+  className?: string /* todo удалить из используемых компонентов, т.к. не используется */
 }
 
-export function Icon({ name, className }: IconProps) {
-  const SvgComponent = iconMap[name]
-  const combinedClassName = className ? `${styles.icon} ${className}` : styles.icon
-
-  return <SvgComponent className={combinedClassName} aria-hidden="true" />
+export function Icon({ name, width = 24, height = 24 }: IconProps) {
+  return (
+    <svg className={styles.icon} width={width} height={height} aria-hidden="true">
+      <use href={`${sprite}#icon-${name}`} width={width} height={height} />
+    </svg>
+  )
 }
