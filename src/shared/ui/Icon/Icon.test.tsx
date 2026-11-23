@@ -3,24 +3,23 @@ import { Icon } from './Icon'
 import { describe, it, expect } from 'vitest'
 
 describe('Icon', () => {
-  it('рендерит svg с правильным href и размерами по умолчанию', () => {
+  it('рендерит svg с правильным href и aria-hidden', () => {
     const { container } = render(<Icon name="bell" />)
 
     const svg = container.querySelector('svg')
     const use = container.querySelector('use')
 
     expect(svg).toBeInTheDocument()
-    expect(svg).toHaveAttribute('width', '24')
-    expect(svg).toHaveAttribute('height', '24')
     expect(svg).toHaveAttribute('aria-hidden', 'true')
+
     expect(use).toHaveAttribute('href', expect.stringContaining('#icon-bell'))
   })
 
-  it('принимает кастомные width и height', () => {
-    const { container } = render(<Icon name="bell" width={32} height={32} />)
+  it('применяет внешний className вместе с базовым', () => {
+    const { container } = render(<Icon name="bell" className="my-custom-class" />)
 
     const svg = container.querySelector('svg')
-    expect(svg).toHaveAttribute('width', '32')
-    expect(svg).toHaveAttribute('height', '32')
+
+    expect(svg).toHaveClass('my-custom-class')
   })
 })
