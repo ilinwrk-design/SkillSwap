@@ -69,3 +69,13 @@ export interface AuthUser {
   email: string
   token: string
 }
+
+// ─── Developer ──────────────────────────────────────────
+export interface Developer {
+  id: string
+  name: string
+  role: string
+  avatarUrl: string | null
+  aboutMe: string
+  connectWithMe: string
+}

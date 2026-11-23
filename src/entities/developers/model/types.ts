@@ -1,0 +1,1 @@
+export type { Developer } from '@/shared/types'
