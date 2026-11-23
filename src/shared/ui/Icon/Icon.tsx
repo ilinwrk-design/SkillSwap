@@ -5,6 +5,7 @@ import cn from 'classnames'
 export type IconName =
   | 'bell'
   | 'clock'
+  | 'close'
   | 'heart'
   | 'right'
   | 'logout'

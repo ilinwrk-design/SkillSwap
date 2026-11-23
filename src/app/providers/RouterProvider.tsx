@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import { ROUTES } from '@/shared/lib/constants';
 import { MainLayout } from '@/app/layouts/MainLayout';
+import { AuthLayout } from '@/app/layouts/AuthLayout';
 
 const CatalogPage = lazy(() => import('@/pages/CatalogPage'));
 const SkillPage = lazy(() => import('@/pages/SkillPage'));
@@ -28,9 +29,11 @@ export function AppRouter() {
             <Route path="*" element={<NotFoundPage />} />
           </Route>
 
-          {/* Страницы без Header и Footer */}
-          <Route path={ROUTES.LOGIN} element={<LoginPage />} />
-          <Route path={ROUTES.REGISTER} element={<LoginPage />} />
+          {/* Страницы c упрощенным Header и без Footer */}
+          <Route element={<AuthLayout />}>
+            <Route path={ROUTES.LOGIN} element={<LoginPage />} />
+            <Route path={ROUTES.REGISTER} element={<LoginPage />} />
+          </Route>
         </Routes>
       </Suspense>
     </BrowserRouter>
