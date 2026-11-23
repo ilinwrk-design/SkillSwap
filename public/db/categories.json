@@ -1,0 +1,92 @@
+[
+  {
+    "id": "category_business",
+    "name": "Бизнес и карьера",
+    "color": "#EEE7F7",
+    "icon": "briefcase",
+    "subcategories": [
+      { "id": "subcategory_team-management", "name": "Управление командой" },
+      { "id": "subcategory_marketing-and-advertising", "name": "Маркетинг и реклама" },
+      { "id": "subcategory_sales-and-negotiations", "name": "Продажи и переговоры" },
+      { "id": "subcategory_personal-brand", "name": "Личный бренд" },
+      { "id": "subcategory_resume-and-interview", "name": "Резюме и собеседование" },
+      { "id": "subcategory_time-management", "name": "Тайм-менеджмент" },
+      { "id": "subcategory_project-management", "name": "Проектное управление" },
+      { "id": "subcategory_entrepreneurship", "name": "Предпринимательство" }
+    ]
+  },
+  {
+    "id": "category_creativity",
+    "name": "Творчество и искусство",
+    "color": "#F7E7F2",
+    "icon": "palette",
+    "subcategories": [
+      { "id": "subcategory_drawing-and-illustration", "name": "Рисование и иллюстрация" },
+      { "id": "subcategory_photography", "name": "Фотография" },
+      { "id": "subcategory_video-editing", "name": "Видеомонтаж" },
+      { "id": "subcategory_music-and-sound", "name": "Музыка и звук" },
+      { "id": "subcategory_acting", "name": "Актёрское мастерство" },
+      { "id": "subcategory_creative-writing", "name": "Креативное письмо" },
+      { "id": "subcategory_art-therapy", "name": "Арт-терапия" },
+      { "id": "subcategory_decor-and-diy", "name": "Декор и DIY" }
+    ]
+  },
+  {
+    "id": "category_languages",
+    "name": "Иностранные языки",
+    "color": "#EBE5C5",
+    "icon": "globe",
+    "subcategories": [
+      { "id": "subcategory_english", "name": "Английский" },
+      { "id": "subcategory_french", "name": "Французский" },
+      { "id": "subcategory_spanish", "name": "Испанский" },
+      { "id": "subcategory_german", "name": "Немецкий" },
+      { "id": "subcategory_chinese", "name": "Китайский" },
+      { "id": "subcategory_japanese", "name": "Японский" },
+      { "id": "subcategory_exam-preparation", "name": "Подготовка к экзаменам (IELTS, TOEFL)" }
+    ]
+  },
+  {
+    "id": "category_education",
+    "name": "Образование и развитие",
+    "color": "#E7F2F6",
+    "icon": "book",
+    "subcategories": [
+      { "id": "subcategory_personal-development", "name": "Личностное развитие" },
+      { "id": "subcategory_learning-skills", "name": "Навыки обучения" },
+      { "id": "subcategory_cognitive-techniques", "name": "Когнитивные техники" },
+      { "id": "subcategory_speed-reading", "name": "Скорочтение" },
+      { "id": "subcategory_teaching-skills", "name": "Навыки преподавания" },
+      { "id": "subcategory_coaching", "name": "Коучинг" }
+    ]
+  },
+  {
+    "id": "category_home",
+    "name": "Дом и уют",
+    "color": "#F7EBE5",
+    "icon": "home",
+    "subcategories": [
+      { "id": "subcategory_cleaning-and-organization", "name": "Уборка и организация" },
+      { "id": "subcategory_household-finances", "name": "Домашние финансы" },
+      { "id": "subcategory_cooking", "name": "Приготовление еды" },
+      { "id": "subcategory_houseplants", "name": "Домашние растения" },
+      { "id": "subcategory_home-repair", "name": "Ремонт" },
+      { "id": "subcategory_storage", "name": "Хранение вещей" }
+    ]
+  },
+  {
+    "id": "category_health",
+    "name": "Здоровье и лайфстайл",
+    "color": "#E9F7E7",
+    "icon": "leaf",
+    "subcategories": [
+      { "id": "subcategory_yoga-and-meditation", "name": "Йога и медитация" },
+      { "id": "subcategory_nutrition-and-healthy-lifestyle", "name": "Питание и ЗОЖ" },
+      { "id": "subcategory_mental-health", "name": "Ментальное здоровье" },
+      { "id": "subcategory_mindfulness", "name": "Осознанность" },
+      { "id": "subcategory_physical-training", "name": "Физические тренировки" },
+      { "id": "subcategory_sleep-and-recovery", "name": "Сон и восстановление" },
+      { "id": "subcategory_work-life-balance", "name": "Баланс жизни и работы" }
+    ]
+  }
+]
