@@ -52,7 +52,7 @@
   --color-border: #69735d;
   --color-error: #bf3920;
   --color-success: #22c55e;
-  --color-tag-counter: #E8ECF7;
+  --color-tag-counter: #e8ecf7;
 
   /* Spacing */
   --space-xs: 4px;
@@ -72,6 +72,8 @@
   --font-size-lg: 1.125rem;
   --font-size-xl: 1.25rem;
   --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.75rem;
+  --font-size-4xl: 2rem;
 
   /* Font weights */
   --font-weight-regular: 400;

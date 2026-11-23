@@ -1,0 +1,26 @@
+.cardsSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-4xl);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.011em;
+  color: var(--color-text);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-lg);
+}
