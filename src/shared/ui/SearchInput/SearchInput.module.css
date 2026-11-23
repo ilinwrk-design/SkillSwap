@@ -30,3 +30,8 @@
 .input::placeholder {
   color: inherit;
 }
+
+.icon {
+  width: var(--space-lg, 24px);
+  height: var(--space-lg, 24px);
+}
