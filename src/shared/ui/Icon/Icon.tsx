@@ -1,5 +1,6 @@
 import sprite from './sprite.svg?url'
 import styles from './Icon.module.css'
+import cn from 'classnames'
 
 export type IconName =
   | 'bell'
@@ -19,15 +20,13 @@ export type IconName =
   | 'heart-filled'
 interface IconProps {
   name: IconName
-  width?: number
-  height?: number
-  className?: string /* todo удалить из используемых компонентов, т.к. не используется */
+  className?: string
 }
 
-export function Icon({ name, width = 24, height = 24 }: IconProps) {
+export function Icon({ name, className }: IconProps) {
   return (
-    <svg className={styles.icon} width={width} height={height} aria-hidden="true">
-      <use href={`${sprite}#icon-${name}`} width={width} height={height} />
+    <svg className={cn(styles.icon, className)} aria-hidden="true">
+      <use href={`${sprite}#icon-${name}`} />
     </svg>
   )
 }
