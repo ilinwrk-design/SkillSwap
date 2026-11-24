@@ -1,0 +1,41 @@
+.infoPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-40);
+  padding: var(--space-60);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-bg-secondary);
+}
+
+.image {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  align-self: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-base);
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.011em;
+  text-align: center;
+}
+
+.description {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: var(--font-size-base);
+  line-height: 1.25;
+  text-align: center;
+}
