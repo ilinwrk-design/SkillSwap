@@ -1,1 +1,858 @@
-[]
+[
+  {
+    "id": "skill_1",
+    "title": "Игра на барабанах",
+    "description": "Приглашаю на индивидуальные уроки игры на барабанах с любым уровнем подготовки. Разберём базовую технику, ритмические рисунки и любимые композиции. Уже через месяц вы сможете сыграть свою первую песню.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_music-and-sound",
+    "tags": [],
+    "images": [
+      "/images/skills/drums-1.jpg",
+      "/images/skills/drums-2.jpg",
+      "/images/skills/drums-3.jpg",
+      "/images/skills/drums-4.jpg",
+      "/images/skills/drums-5.jpg"
+    ],
+    "authorId": "user_20",
+    "createdAt": "2026-10-15T14:30:00.000Z"
+  },
+  {
+    "id": "skill_2",
+    "title": "Акустическая гитара с нуля",
+    "description": "Научу играть на акустической гитаре с полного нуля. Освоим аккорды, бой и перебор, а также разберём ваши любимые песни. Занятия проходят в непринуждённой атмосфере с домашним чаем.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_music-and-sound",
+    "tags": [],
+    "images": [
+      "/images/skills/guitar-1.jpg",
+      "/images/skills/guitar-2.jpg",
+      "/images/skills/guitar-3.jpg",
+      "/images/skills/guitar-4.jpg"
+    ],
+    "authorId": "user_11",
+    "createdAt": "2026-10-16T09:15:00.000Z"
+  },
+  {
+    "id": "skill_3",
+    "title": "Акварельная живопись",
+    "description": "Помогу освоить акварель даже тем, кто последний раз рисовал в школе. Научимся работать с цветом, заливками и композицией. Каждое занятие — законченная картина, которую заберёте с собой.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_drawing-and-illustration",
+    "tags": [],
+    "images": [
+      "/images/skills/watercolor-1.jpg",
+      "/images/skills/watercolor-2.jpg",
+      "/images/skills/watercolor-3.jpg",
+      "/images/skills/watercolor-4.jpg"
+    ],
+    "authorId": "user_14",
+    "createdAt": "2026-10-17T11:40:00.000Z"
+  },
+  {
+    "id": "skill_4",
+    "title": "Портретная фотография",
+    "description": "Поделюсь опытом съёмки портретов в естественном свете. Разберём свет, ракурсы, работу с моделью и базовую обработку. Подойдёт как новичкам, так и тем, кто хочет оживить свои снимки.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_photography",
+    "tags": [],
+    "images": [
+      "/images/skills/photo-1.jpg",
+      "/images/skills/photo-2.jpg",
+      "/images/skills/photo-3.jpg",
+      "/images/skills/photo-4.jpg"
+    ],
+    "authorId": "user_15",
+    "createdAt": "2026-10-18T16:20:00.000Z"
+  },
+  {
+    "id": "skill_5",
+    "title": "Гончарное дело для начинающих",
+    "description": "Приглашаю на мастер-классы по гончарному делу. Освоите работу за кругом, центровку глины и создание простых форм. В конце занятия у вас останется собственноручно сделанная чашка или ваза.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_decor-and-diy",
+    "tags": [],
+    "images": [
+      "/images/skills/pottery-1.jpg",
+      "/images/skills/pottery-2.jpg",
+      "/images/skills/pottery-3.jpg",
+      "/images/skills/pottery-4.jpg"
+    ],
+    "authorId": "user_18",
+    "createdAt": "2026-10-19T10:05:00.000Z"
+  },
+  {
+    "id": "skill_6",
+    "title": "Актёрское мастерство",
+    "description": "Провожу тренинги по актёрскому мастерству для взрослых. Работаем над снятием зажимов, голосом, импровизацией и уверенностью на публике. Отлично подойдёт для тех, кто боится выступлений.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_acting",
+    "tags": [],
+    "images": [
+      "/images/skills/theater-1.jpg",
+      "/images/skills/theater-2.jpg",
+      "/images/skills/theater-3.jpg",
+      "/images/skills/theater-4.jpg",
+      "/images/skills/theater-5.jpg"
+    ],
+    "authorId": "user_22",
+    "createdAt": "2026-10-20T13:50:00.000Z"
+  },
+  {
+    "id": "skill_7",
+    "title": "Разговорный английский",
+    "description": "Помогу заговорить по-английски без страха и зубрёжки. Занятия строятся вокруг живых диалогов на интересные вам темы. Подойдёт для уровня от Elementary до Intermediate.",
+    "type": "teach",
+    "categoryId": "category_languages",
+    "subcategoryId": "subcategory_english",
+    "tags": [],
+    "images": [
+      "/images/skills/english-1.jpg",
+      "/images/skills/english-2.jpg",
+      "/images/skills/english-3.jpg",
+      "/images/skills/english-4.jpg"
+    ],
+    "authorId": "user_24",
+    "createdAt": "2026-10-21T08:30:00.000Z"
+  },
+  {
+    "id": "skill_8",
+    "title": "Математика для школьников",
+    "description": "Помогу разобраться с математикой ученикам 5–9 классов. Объясняю сложные темы простым языком, готовлю к контрольным. Нацелен на понимание, а не на заучивание формул.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_learning-skills",
+    "tags": [],
+    "images": [
+      "/images/skills/math-1.jpg",
+      "/images/skills/math-2.jpg",
+      "/images/skills/math-3.jpg",
+      "/images/skills/math-4.jpg"
+    ],
+    "authorId": "user_29",
+    "createdAt": "2026-10-22T15:10:00.000Z"
+  },
+  {
+    "id": "skill_9",
+    "title": "Основы программирования на Python",
+    "description": "Научу основам Python с нуля: переменные, циклы, функции и первые мини-проекты. Курс рассчитан на новичков без опыта. После нескольких занятий сможете написать собственный скрипт.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_cognitive-techniques",
+    "tags": [],
+    "images": [
+      "/images/skills/python-1.jpg",
+      "/images/skills/python-2.jpg",
+      "/images/skills/python-3.jpg",
+      "/images/skills/python-4.jpg"
+    ],
+    "authorId": "user_31",
+    "createdAt": "2026-10-23T12:00:00.000Z"
+  },
+  {
+    "id": "skill_10",
+    "title": "Скорочтение",
+    "description": "Поделюсь техниками скорочтения и тренировки памяти. Научитесь читать быстрее в 2–3 раза при сохранении понимания текста. Подходит студентам и всем, кто много работает с информацией.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_speed-reading",
+    "tags": [],
+    "images": [
+      "/images/skills/reading-1.jpg",
+      "/images/skills/reading-2.jpg",
+      "/images/skills/reading-3.jpg",
+      "/images/skills/reading-4.jpg"
+    ],
+    "authorId": "user_35",
+    "createdAt": "2026-10-24T17:45:00.000Z"
+  },
+  {
+    "id": "skill_11",
+    "title": "Подготовка к ЕГЭ по истории",
+    "description": "Готовлю к ЕГЭ по истории с учётом актуальных требований. Разбираем сложные темы, карты и задания второй части. Индивидуальный план подготовки под ваш уровень.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_personal-development",
+    "tags": [],
+    "images": [
+      "/images/skills/history-1.jpg",
+      "/images/skills/history-2.jpg",
+      "/images/skills/history-3.jpg",
+      "/images/skills/education-personal-1.jpg"
+    ],
+    "authorId": "user_36",
+    "createdAt": "2026-10-25T09:20:00.000Z"
+  },
+  {
+    "id": "skill_12",
+    "title": "Йога для начинающих",
+    "description": "Приглашаю на занятия хатха-йогой для начинающих. Работаем над гибкостью, осанкой и дыханием в комфортном темпе. Подойдёт даже тем, кто никогда не практиковал.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_yoga-and-meditation",
+    "tags": [],
+    "images": [
+      "/images/skills/yoga-1.jpg",
+      "/images/skills/yoga-2.jpg",
+      "/images/skills/health-yoga-1.jpg",
+      "/images/skills/health-yoga-2.jpg"
+    ],
+    "authorId": "user_39",
+    "createdAt": "2026-10-26T07:00:00.000Z"
+  },
+  {
+    "id": "skill_13",
+    "title": "Кроссфит-тренировки",
+    "description": "Провожу функциональные тренировки по кроссфиту. Составлю программу под ваш уровень и цели, помогу с техникой базовых упражнений. Работаем на силу, выносливость и тонус.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_physical-training",
+    "tags": [],
+    "images": [
+      "/images/skills/crossfit-1.jpg",
+      "/images/skills/crossfit-2.jpg",
+      "/images/skills/health-training-1.jpg",
+      "/images/skills/health-training-2.jpg"
+    ],
+    "authorId": "user_42",
+    "createdAt": "2026-10-27T18:30:00.000Z"
+  },
+  {
+    "id": "skill_14",
+    "title": "Техника бега",
+    "description": "Научу правильно бегать без травм и с удовольствием. Разберём постановку стопы, дыхание и построение тренировок. Подойдёт и новичкам, и бегунам с опытом.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_physical-training",
+    "tags": [],
+    "images": [
+      "/images/skills/running-1.jpg",
+      "/images/skills/running-2.jpg",
+      "/images/skills/health-training-1.jpg",
+      "/images/skills/health-training-2.jpg"
+    ],
+    "authorId": "user_44",
+    "createdAt": "2026-10-28T06:15:00.000Z"
+  },
+  {
+    "id": "skill_15",
+    "title": "Плавание кролем",
+    "description": "Помогу освоить плавание кролем с нуля или улучшить технику. Работаем над дыханием, гребком и координацией движений. Занятия в бассейне с индивидуальным подходом.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_physical-training",
+    "tags": [],
+    "images": [
+      "/images/skills/swimming-1.jpg",
+      "/images/skills/swimming-2.jpg",
+      "/images/skills/health-training-1.jpg",
+      "/images/skills/health-training-2.jpg"
+    ],
+    "authorId": "user_45",
+    "createdAt": "2026-10-29T19:00:00.000Z"
+  },
+  {
+    "id": "skill_16",
+    "title": "Шахматы для начинающих",
+    "description": "Обучу основам шахмат: дебюты, тактики, стратегия. Разбираем партии и учимся думать на несколько ходов вперёд. Подойдёт детям и взрослым, которые хотят начать.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_cognitive-techniques",
+    "tags": [],
+    "images": [
+      "/images/skills/chess-1.jpg",
+      "/images/skills/chess-2.jpg",
+      "/images/skills/chess-3.jpg",
+      "/images/skills/chess-4.jpg"
+    ],
+    "authorId": "user_46",
+    "createdAt": "2026-10-30T14:45:00.000Z"
+  },
+  {
+    "id": "skill_17",
+    "title": "Веб-разработка: HTML и CSS",
+    "description": "Научу создавать сайты с нуля на HTML и CSS. Освоим вёрстку, адаптивность и базовые принципы дизайна. К концу курса у вас будет собственный готовый сайт-портфолио.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_learning-skills",
+    "tags": [],
+    "images": [
+      "/images/skills/web-1.jpg",
+      "/images/skills/web-2.jpg",
+      "/images/skills/education-learning-1.jpg",
+      "/images/skills/education-learning-2.jpg"
+    ],
+    "authorId": "user_47",
+    "createdAt": "2026-10-31T11:30:00.000Z"
+  },
+  {
+    "id": "skill_18",
+    "title": "Python для анализа данных",
+    "description": "Поделюсь практическими навыками анализа данных на Python. Разберём pandas, визуализацию и базовую статистику на реальных примерах. Для тех, кто уже знаком с основами Python.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_cognitive-techniques",
+    "tags": [],
+    "images": [
+      "/images/skills/data-1.jpg",
+      "/images/skills/data-2.jpg",
+      "/images/skills/education-learning-1.jpg",
+      "/images/skills/education-learning-2.jpg",
+      "/images/skills/education-learning-3.jpg"
+    ],
+    "authorId": "user_48",
+    "createdAt": "2026-11-01T10:00:00.000Z"
+  },
+  {
+    "id": "skill_19",
+    "title": "Основы дизайна в Figma",
+    "description": "Помогу освоить Figma для создания интерфейсов. Научимся работать с сетками, компонентами и прототипами. Подойдёт начинающим дизайнерам и разработчикам.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_drawing-and-illustration",
+    "tags": [],
+    "images": [
+      "/images/skills/figma-1.jpg",
+      "/images/skills/figma-2.jpg",
+      "/images/skills/education-learning-1.jpg",
+      "/images/skills/education-learning-2.jpg"
+    ],
+    "authorId": "user_49",
+    "createdAt": "2026-11-02T16:25:00.000Z"
+  },
+  {
+    "id": "skill_20",
+    "title": "Мобильная разработка на Kotlin",
+    "description": "Расскажу, как начать разрабатывать Android-приложения на Kotlin. Разберём основы языка, архитектуру и создание простого приложения. Для тех, кто хочет войти в мобильную разработку.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_learning-skills",
+    "tags": [],
+    "images": [
+      "/images/skills/kotlin-1.jpg",
+      "/images/skills/kotlin-2.jpg",
+      "/images/skills/education-learning-1.jpg",
+      "/images/skills/education-learning-2.jpg"
+    ],
+    "authorId": "user_12",
+    "createdAt": "2026-11-03T13:10:00.000Z"
+  },
+  {
+    "id": "skill_21",
+    "title": "Кибербезопасность для новичков",
+    "description": "Поделюсь базовыми знаниями по кибербезопасности. Разберём пароли, фишинг, безопасность в сети и защиту личных данных. Практические советы для повседневной жизни.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_personal-development",
+    "tags": [],
+    "images": [
+      "/images/skills/security-1.jpg",
+      "/images/skills/security-2.jpg",
+      "/images/skills/education-learning-1.jpg",
+      "/images/skills/education-learning-2.jpg"
+    ],
+    "authorId": "user_5",
+    "createdAt": "2026-11-04T09:40:00.000Z"
+  },
+  {
+    "id": "skill_22",
+    "title": "Приготовление пасты",
+    "description": "Научу готовить настоящую итальянскую пасту в домашних условиях. Освоим свежее тесто, соусы и правильные сочетания. Каждое занятие — ужин, который готовим и съедаем вместе.",
+    "type": "teach",
+    "categoryId": "category_home",
+    "subcategoryId": "subcategory_cooking",
+    "tags": [],
+    "images": [
+      "/images/skills/pasta-1.jpg",
+      "/images/skills/pasta-2.jpg",
+      "/images/skills/home-cooking-1.jpg",
+      "/images/skills/home-cooking-2.jpg"
+    ],
+    "authorId": "user_23",
+    "createdAt": "2026-11-05T18:00:00.000Z"
+  },
+  {
+    "id": "skill_23",
+    "title": "Домашняя выпечка",
+    "description": "Поделюсь рецептами и секретами домашней выпечки. Научимся печь хлеб, круассаны и простые десерты. Занятия проходят на уютной кухне с дегустацией.",
+    "type": "teach",
+    "categoryId": "category_home",
+    "subcategoryId": "subcategory_cooking",
+    "tags": [],
+    "images": [
+      "/images/skills/baking-1.jpg",
+      "/images/skills/baking-2.jpg",
+      "/images/skills/home-cooking-1.jpg",
+      "/images/skills/home-cooking-2.jpg",
+      "/images/skills/home-cooking-3.jpg"
+    ],
+    "authorId": "user_30",
+    "createdAt": "2026-11-06T12:15:00.000Z"
+  },
+  {
+    "id": "skill_24",
+    "title": "Уход за комнатными растениями",
+    "description": "Помогу разобраться, как ухаживать за комнатными растениями. Разберём полив, освещение, пересадку и лечение болезней. Подойдёт тем, у кого растения «не выживают».",
+    "type": "teach",
+    "categoryId": "category_home",
+    "subcategoryId": "subcategory_houseplants",
+    "tags": [],
+    "images": [
+      "/images/skills/plants-1.jpg",
+      "/images/skills/plants-2.jpg",
+      "/images/skills/home-plants-1.jpg",
+      "/images/skills/home-plants-2.jpg"
+    ],
+    "authorId": "user_33",
+    "createdAt": "2026-11-07T10:30:00.000Z"
+  },
+  {
+    "id": "skill_25",
+    "title": "Базовый ремонт своими руками",
+    "description": "Научу простым вещам по дому: повесить полку, починить кран, собрать мебель. Практические навыки, которые экономят время и деньги. Подойдёт всем, кто хочет стать самостоятельнее.",
+    "type": "teach",
+    "categoryId": "category_home",
+    "subcategoryId": "subcategory_home-repair",
+    "tags": [],
+    "images": [
+      "/images/skills/repair-1.jpg",
+      "/images/skills/repair-2.jpg",
+      "/images/skills/repair-3.jpg",
+      "/images/skills/repair-4.jpg"
+    ],
+    "authorId": "user_34",
+    "createdAt": "2026-11-08T15:50:00.000Z"
+  },
+  {
+    "id": "skill_26",
+    "title": "Уборка и организация пространства",
+    "description": "Поделюсь системным подходом к организации дома. Научимся правильно хранить вещи, избавляться от лишнего и поддерживать порядок. Меньше хаоса — больше свободного времени.",
+    "type": "teach",
+    "categoryId": "category_home",
+    "subcategoryId": "subcategory_cleaning-and-organization",
+    "tags": [],
+    "images": [
+      "/images/skills/cleaning-1.jpg",
+      "/images/skills/cleaning-2.jpg",
+      "/images/skills/cleaning-3.jpg",
+      "/images/skills/cleaning-4.jpg"
+    ],
+    "authorId": "user_37",
+    "createdAt": "2026-11-09T08:10:00.000Z"
+  },
+  {
+    "id": "skill_27",
+    "title": "Медитация и осознанность",
+    "description": "Помогу освоить базовые практики медитации и осознанности. Научимся работать с дыханием, замечать мысли и снижать уровень стресса. Занятия проходят онлайн в спокойном темпе.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_yoga-and-meditation",
+    "tags": [],
+    "images": [
+      "/images/skills/meditation-1.jpg",
+      "/images/skills/meditation-2.jpg",
+      "/images/skills/health-yoga-1.jpg",
+      "/images/skills/health-yoga-2.jpg"
+    ],
+    "authorId": "user_38",
+    "createdAt": "2026-11-10T07:30:00.000Z"
+  },
+  {
+    "id": "skill_28",
+    "title": "Основы нутрициологии",
+    "description": "Поделюсь знаниями о сбалансированном питании. Разберём белки, жиры, углеводы и составление рациона под ваш образ жизни. Без жёстких диет и запретов.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_nutrition-and-healthy-lifestyle",
+    "tags": [],
+    "images": [
+      "/images/skills/nutrition-1.jpg",
+      "/images/skills/nutrition-2.jpg",
+      "/images/skills/health-nutrition-1.jpg",
+      "/images/skills/health-nutrition-2.jpg"
+    ],
+    "authorId": "user_41",
+    "createdAt": "2026-11-11T13:00:00.000Z"
+  },
+  {
+    "id": "skill_29",
+    "title": "Первая психологическая помощь",
+    "description": "Расскажу о базовых техниках самопомощи при стрессе и тревоге. Разберём дыхательные упражнения, заземление и работу с эмоциями. Практические инструменты на каждый день.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_mental-health",
+    "tags": [],
+    "images": [
+      "/images/skills/psychology-1.jpg",
+      "/images/skills/psychology-2.jpg",
+      "/images/skills/psychology-3.jpg",
+      "/images/skills/psychology-4.jpg"
+    ],
+    "authorId": "user_43",
+    "createdAt": "2026-11-12T16:40:00.000Z"
+  },
+  {
+    "id": "skill_30",
+    "title": "Сон и восстановление",
+    "description": "Помогу наладить сон и восстановление. Разберём гигиену сна, режим и факторы, мешающие отдыху. Практические шаги, которые работают уже с первой недели.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_sleep-and-recovery",
+    "tags": [],
+    "images": [
+      "/images/skills/sleep-1.jpg",
+      "/images/skills/sleep-2.jpg",
+      "/images/skills/sleep-3.jpg",
+      "/images/skills/sleep-4.jpg"
+    ],
+    "authorId": "user_1",
+    "createdAt": "2026-11-13T21:15:00.000Z"
+  },
+  {
+    "id": "skill_31",
+    "title": "Стретчинг для гибкости",
+    "description": "Провожу занятия по стретчингу для улучшения гибкости и снятия напряжения. Работаем над всеми группами мышц в комфортном темпе. Отлично подходит после рабочего дня.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_physical-training",
+    "tags": [],
+    "images": [
+      "/images/skills/stretching-1.jpg",
+      "/images/skills/stretching-2.jpg",
+      "/images/skills/stretching-3.jpg",
+      "/images/skills/stretching-4.jpg"
+    ],
+    "authorId": "user_2",
+    "createdAt": "2026-11-14T19:20:00.000Z"
+  },
+  {
+    "id": "skill_32",
+    "title": "Барабаны: продвинутый уровень",
+    "description": "Для тех, кто уже играет на барабанах и хочет расти дальше. Разберём сложные ритмы, полиритмию и импровизацию. Индивидуальная программа под ваш уровень.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_music-and-sound",
+    "tags": [],
+    "images": [
+      "/images/skills/drums-5.jpg",
+      "/images/skills/drums-6.jpg",
+      "/images/skills/drums-3.jpg",
+      "/images/skills/drums-4.jpg"
+    ],
+    "authorId": "user_3",
+    "createdAt": "2026-11-15T14:30:00.000Z"
+  },
+  {
+    "id": "skill_33",
+    "title": "Испанский для путешествий",
+    "description": "Научу базовому испанскому для поездок. Разберём фразы для аэропорта, отеля, ресторана и повседневного общения. Акцент на разговорную практику, а не грамматику.",
+    "type": "teach",
+    "categoryId": "category_languages",
+    "subcategoryId": "subcategory_spanish",
+    "tags": [],
+    "images": [
+      "/images/skills/spanish-1.jpg",
+      "/images/skills/spanish-2.jpg",
+      "/images/skills/spanish-3.jpg",
+      "/images/skills/spanish-4.jpg"
+    ],
+    "authorId": "user_4",
+    "createdAt": "2026-11-16T10:45:00.000Z"
+  },
+  {
+    "id": "skill_34",
+    "title": "Физика для школьников",
+    "description": "Помогу разобраться с физикой ученикам 7–11 классов. Объясняю явления и законы на примерах из жизни. Готовлю к контрольным и экзаменам.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_learning-skills",
+    "tags": [],
+    "images": [
+      "/images/skills/physics-1.jpg",
+      "/images/skills/physics-2.jpg",
+      "/images/skills/physics-3.jpg",
+      "/images/skills/physics-4.jpg"
+    ],
+    "authorId": "user_6",
+    "createdAt": "2026-11-17T15:00:00.000Z"
+  },
+  {
+    "id": "skill_35",
+    "title": "Тайский бокс",
+    "description": "Провожу тренировки по тайскому боксу для начинающих. Освоим базовую технику, стойку и работу с тенью. Развиваем силу, выносливость и координацию в безопасном формате.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_physical-training",
+    "tags": [],
+    "images": [
+      "/images/skills/boxing-1.jpg",
+      "/images/skills/boxing-2.jpg",
+      "/images/skills/health-training-1.jpg",
+      "/images/skills/health-training-2.jpg"
+    ],
+    "authorId": "user_7",
+    "createdAt": "2026-11-18T17:30:00.000Z"
+  },
+  {
+    "id": "skill_36",
+    "title": "Бэкенд на Node.js",
+    "description": "Научу создавать серверную часть на Node.js. Разберём Express, работу с базами данных и REST API. Для тех, кто уже знает основы JavaScript.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_learning-skills",
+    "tags": [],
+    "images": [
+      "/images/skills/backend-1.jpg",
+      "/images/skills/backend-2.jpg",
+      "/images/skills/education-learning-1.jpg",
+      "/images/skills/education-learning-2.jpg",
+      "/images/skills/education-learning-3.jpg"
+    ],
+    "authorId": "user_8",
+    "createdAt": "2026-11-19T11:00:00.000Z"
+  },
+  {
+    "id": "skill_37",
+    "title": "Итальянская кухня",
+    "description": "Поделюсь рецептами итальянской кухни: ризотто, лазанья, тирамису. Научимся работать с продуктами и готовить как в Италии. Занятия с дегустацией и домашней атмосферой.",
+    "type": "teach",
+    "categoryId": "category_home",
+    "subcategoryId": "subcategory_cooking",
+    "tags": [],
+    "images": [
+      "/images/skills/italian-1.jpg",
+      "/images/skills/italian-2.jpg",
+      "/images/skills/home-cooking-1.jpg",
+      "/images/skills/home-cooking-2.jpg"
+    ],
+    "authorId": "user_9",
+    "createdAt": "2026-11-20T18:20:00.000Z"
+  },
+  {
+    "id": "skill_38",
+    "title": "Скандинавская ходьба",
+    "description": "Научу скандинавской ходьбе с правильной техникой. Разберём работу с палками, постановку шага и построение маршрута. Подойдёт людям любого возраста и уровня подготовки.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_physical-training",
+    "tags": [],
+    "images": [
+      "/images/skills/walking-1.jpg",
+      "/images/skills/walking-2.jpg",
+      "/images/skills/walking-3.jpg",
+      "/images/skills/walking-4.jpg"
+    ],
+    "authorId": "user_10",
+    "createdAt": "2026-11-21T09:50:00.000Z"
+  },
+  {
+    "id": "skill_39",
+    "title": "Гитара: первые песни",
+    "description": "Практический курс для тех, кто хочет сыграть любимые песни на гитаре. Разберём простые аккорды и бои без сложной теории. Первую песню сыграете уже на втором занятии.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_music-and-sound",
+    "tags": [],
+    "images": [
+      "/images/skills/guitar-5.jpg",
+      "/images/skills/guitar-6.jpg",
+      "/images/skills/guitar-1.jpg",
+      "/images/skills/guitar-2.jpg"
+    ],
+    "authorId": "user_50",
+    "createdAt": "2026-11-22T13:40:00.000Z"
+  },
+  {
+    "id": "skill_40",
+    "title": "Ментальная арифметика",
+    "description": "Научу детей и взрослых ментальной арифметике. Развиваем скорость счёта, память и концентрацию через специальные упражнения. Подойдёт для детей от 7 лет.",
+    "type": "teach",
+    "categoryId": "category_education",
+    "subcategoryId": "subcategory_cognitive-techniques",
+    "tags": [],
+    "images": [
+      "/images/skills/arithmetic-1.jpg",
+      "/images/skills/arithmetic-2.jpg",
+      "/images/skills/arithmetic-3.jpg",
+      "/images/skills/arithmetic-4.jpg"
+    ],
+    "authorId": "user_13",
+    "createdAt": "2026-11-23T16:00:00.000Z"
+  },
+  {
+    "id": "skill_41",
+    "title": "Фитнес-стрейчинг для беременных",
+    "description": "Специальные занятия по растяжке и мягкому фитнесу для беременных. Улучшаем самочувствие, снимаем напряжение и готовим тело к родам. Все упражнения безопасны и адаптированы.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_physical-training",
+    "tags": [],
+    "images": [
+      "/images/skills/pregnancy-1.jpg",
+      "/images/skills/pregnancy-2.jpg",
+      "/images/skills/pregnancy-3.jpg",
+      "/images/skills/pregnancy-4.jpg"
+    ],
+    "authorId": "user_16",
+    "createdAt": "2026-11-24T10:20:00.000Z"
+  },
+  {
+    "id": "skill_42",
+    "title": "Кастомная мебель из дерева",
+    "description": "Поделюсь навыками работы с деревом. Научимся базовой обработке, сборке и отделке простых предметов мебели. Подойдёт тем, кто хочет делать вещи своими руками.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_decor-and-diy",
+    "tags": [],
+    "images": [
+      "/images/skills/woodwork-1.jpg",
+      "/images/skills/woodwork-2.jpg",
+      "/images/skills/woodwork-3.jpg",
+      "/images/skills/woodwork-4.jpg",
+      "/images/skills/woodwork-5.jpg"
+    ],
+    "authorId": "user_17",
+    "createdAt": "2026-11-25T14:00:00.000Z"
+  },
+  {
+    "id": "skill_43",
+    "title": "Французский для начинающих",
+    "description": "Помогу сделать первые шаги во французском. Освоим произношение, базовую лексику и простые фразы для общения. Занятия с акцентом на разговор и аудирование.",
+    "type": "teach",
+    "categoryId": "category_languages",
+    "subcategoryId": "subcategory_french",
+    "tags": [],
+    "images": [
+      "/images/skills/french-1.jpg",
+      "/images/skills/french-2.jpg",
+      "/images/skills/french-3.jpg",
+      "/images/skills/french-4.jpg"
+    ],
+    "authorId": "user_19",
+    "createdAt": "2026-11-26T11:10:00.000Z"
+  },
+  {
+    "id": "skill_44",
+    "title": "Сноуборд для начинающих",
+    "description": "Научу основам сноуборда на склоне. Разберём стойку, повороты и безопасное катание. Подойдёт тем, кто впервые встаёт на доску или хочет исправить технику.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_physical-training",
+    "tags": [],
+    "images": [
+      "/images/skills/snowboard-1.jpg",
+      "/images/skills/snowboard-2.jpg",
+      "/images/skills/snowboard-3.jpg",
+      "/images/skills/snowboard-4.jpg"
+    ],
+    "authorId": "user_21",
+    "createdAt": "2026-11-27T12:45:00.000Z"
+  },
+  {
+    "id": "skill_45",
+    "title": "Управление проектами в IT",
+    "description": "Поделюсь практикой управления IT-проектами. Разберём Agile, Scrum и инструменты планирования. Для тех, кто хочет системно вести проекты и команды.",
+    "type": "teach",
+    "categoryId": "category_business",
+    "subcategoryId": "subcategory_project-management",
+    "tags": [],
+    "images": [
+      "/images/skills/management-1.jpg",
+      "/images/skills/management-2.jpg",
+      "/images/skills/management-3.jpg",
+      "/images/skills/management-4.jpg"
+    ],
+    "authorId": "user_25",
+    "createdAt": "2026-11-28T15:30:00.000Z"
+  },
+  {
+    "id": "skill_46",
+    "title": "Садоводство на балконе",
+    "description": "Научу выращивать зелень, овощи и ягоды прямо на балконе. Разберём выбор контейнеров, почвы и уход. Свежие продукты круглый год без дачи.",
+    "type": "teach",
+    "categoryId": "category_home",
+    "subcategoryId": "subcategory_houseplants",
+    "tags": [],
+    "images": [
+      "/images/skills/garden-1.jpg",
+      "/images/skills/garden-2.jpg",
+      "/images/skills/home-plants-1.jpg",
+      "/images/skills/home-plants-2.jpg"
+    ],
+    "authorId": "user_26",
+    "createdAt": "2026-11-29T09:00:00.000Z"
+  },
+  {
+    "id": "skill_47",
+    "title": "Стрельба из лука",
+    "description": "Провожу занятия по стрельбе из классического лука. Освоим стойку, натяжение и прицеливание. Отличный способ развить концентрацию и снять стресс.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_physical-training",
+    "tags": [],
+    "images": [
+      "/images/skills/archery-1.jpg",
+      "/images/skills/archery-2.jpg",
+      "/images/skills/archery-3.jpg",
+      "/images/skills/archery-4.jpg"
+    ],
+    "authorId": "user_27",
+    "createdAt": "2026-11-30T11:15:00.000Z"
+  },
+  {
+    "id": "skill_48",
+    "title": "Веб-дизайн для начинающих",
+    "description": "Помогу освоить основы веб-дизайна. Разберём композицию, типографику, цвет и создание макетов. Для тех, кто хочет начать карьеру в дизайне или делать сайты для себя.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_drawing-and-illustration",
+    "tags": [],
+    "images": [
+      "/images/skills/webdesign-1.jpg",
+      "/images/skills/webdesign-2.jpg",
+      "/images/skills/education-learning-1.jpg",
+      "/images/skills/education-learning-2.jpg"
+    ],
+    "authorId": "user_28",
+    "createdAt": "2026-12-01T13:50:00.000Z"
+  },
+  {
+    "id": "skill_49",
+    "title": "Правильное питание для спортсменов",
+    "description": "Расскажу, как составить рацион для тренировок и восстановления. Разберём белки, углеводы, жиры и добавки. Индивидуальный подход под ваш вид спорта и цели.",
+    "type": "teach",
+    "categoryId": "category_health",
+    "subcategoryId": "subcategory_nutrition-and-healthy-lifestyle",
+    "tags": [],
+    "images": [
+      "/images/skills/sportnutrition-1.jpg",
+      "/images/skills/sportnutrition-2.jpg",
+      "/images/skills/health-nutrition-1.jpg",
+      "/images/skills/health-nutrition-2.jpg"
+    ],
+    "authorId": "user_32",
+    "createdAt": "2026-12-02T16:40:00.000Z"
+  },
+  {
+    "id": "skill_50",
+    "title": "Укулеле с нуля",
+    "description": "Научу играть на укулеле с нуля. Освоим аккорды, бой и мелодии, разберём ваши любимые песни. Компактный инструмент — отличный старт в мир музыки.",
+    "type": "teach",
+    "categoryId": "category_creativity",
+    "subcategoryId": "subcategory_music-and-sound",
+    "tags": [],
+    "images": [
+      "/images/skills/ukulele-1.jpg",
+      "/images/skills/ukulele-2.jpg",
+      "/images/skills/ukulele-3.jpg",
+      "/images/skills/ukulele-4.jpg"
+    ],
+    "authorId": "user_40",
+    "createdAt": "2026-12-03T10:30:00.000Z"
+  }
+]
