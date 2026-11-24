@@ -1,12 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit'
+import { citiesReducer } from '@/entities/city'
+import { categoriesReducer } from '@/entities/skill'
 // Импортируй свои slice'ы здесь по мере их создания:
-// import skillsReducer from '@/entities/skill/model/skillsSlice'
 // import authReducer from '@/features/auth/model/authSlice'
 
 export const store = configureStore({
   reducer: {
-    // skills: skillsReducer,
-    // auth: authReducer,
+    cities: citiesReducer,
+    categories: categoriesReducer,
   },
 })
 
