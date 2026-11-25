@@ -1,5 +1,4 @@
 import type { Developer } from '../../types'
-import { Avatar } from '../Avatar'
 import styles from './DeveloperCard.module.css'
 
 type DeveloperCardProps = Pick<
@@ -17,11 +16,9 @@ export function DeveloperCard({
   return (
     <article className={styles.card}>
       <header className={styles.header}>
-        <Avatar
-          src={avatarUrl ?? undefined}
-          alt={name}
-          size="m"
-        />
+        <div className={styles.avatar}>
+          {avatarUrl && <img src={avatarUrl} alt={name} />}
+        </div>
 
         <div className={styles.info}>
           <h2 className={styles.name}>{name}</h2>
