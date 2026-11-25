@@ -1,0 +1,94 @@
+/* внешний контейнер: подпись, поле и текст ошибки идут друг под другом */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  width: 100%;
+}
+
+/* подпись над полем ввода */
+.label {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+/*  рамка поля вводв, обьядиняет сам input и кнопку глаз */
+.inputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  padding-inline: var(--space-base);
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition: border-color 0.2s ease;
+}
+
+/* подсветка рамки */
+.inputContainer:focus-within {
+  border-color: var(--color-primary);
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* красная рамка при ошибке */
+.inputContainerError {
+  border-color: var(--color-error);
+}
+
+.inputContainerError:focus-within {
+  border-color: var(--color-error);
+  outline-color: var(--color-error);
+}
+
+/* текстовый input без рамки стандартной браузурной рамки */
+.input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  outline: none;
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+}
+
+.input::placeholder {
+  color: var(--color-text-secondary);
+}
+
+/* кнопка глаз, показ/скрытие */
+.eyeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0;
+  margin-left: var(--space-sm);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+}
+
+.eyeButton:hover {
+  color: var(--color-text);
+}
+
+.eyeIcon {
+  width: var(--space-lg);
+  height: var(--space-lg);
+}
+
+/* текст ошибок под поле ввода */
+.errorText {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  color: var(--color-error);
+  line-height: 1.4;
+}

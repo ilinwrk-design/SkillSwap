@@ -19,6 +19,7 @@ export type IconName =
   | 'home'
   | 'leaf'
   | 'heart-filled'
+  | 'eye'
 interface IconProps {
   name: IconName
   className?: string
