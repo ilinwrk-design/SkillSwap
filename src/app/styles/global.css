@@ -62,6 +62,8 @@
   --space-lg: 24px;
   --space-xl: 32px;
   --space-2xl: 48px;
+  --space-40: 40px;
+  --space-60: 60px;
 
   /* Typography */
   --font-sans: 'Roboto', sans-serif;
